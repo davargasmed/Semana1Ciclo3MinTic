@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda de zapatos</title>
+    <link rel="icon" href="imagenes/shoe.png" type="iamge/png" />
 </head>
 <body>
 
+    <style>
+        .titulo{
+            color: cornflowerblue;
+            text-align: center;
+        }
+        .cita {
+            font-style: italic;
+        }
+
+        h2{
+            color: rgb(255, 0, 0)
+        }
+        .tituloSeccionCalzado{
+            color:darkblue;
+        }
+    </style>
+
+    <header>
+        <h1 class="titulo">Tienda de zapatos</h1>
+    </header>
+
+    <main>
+        
+        <p>Lorem <a href="https://www.youtube.com/watch?v=J8hE0kTSJ0s" target="_blank">ipsum</a> dolor sit amet consectetur adipisicing elit. Saepe nulla, recusandae quas fugiat eligendi aliquam et hic iure aut accusantium blanditiis! Rerum aspernatur distinctio, aut expedita dolorem ullam debitis quidem!</p>
+
+        <h2 class="titulosSeccionCalzado">Seccion calzado</h2>
+            
+        <p>En esta sección encontrarás diversidad de calzado para todas las edades,
+        géneros, gustos, tipo, deportes, etc.
+        </p>
+
+        <p>El porqué de las zapatillas</p> <blockquote cite="https://es.wikipedia.org/wiki/Zapatilla" class =  "cita" >La palabra zapatilla puede referirse al calzado cómodo o de abrigo para estar en casa </blockquote>
+
+        <h2>Menu principal</h2>
+        <ul>
+            <li>Video</li>
+            <li><a href="#Contacto"> Contacto </a></li>
+            <li><a href="#Fundador"> Fundador </a></li>
+            <li> <a href="#Formulario"> Formulario </a>  </li>
+        </ul>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wm-p9mcN8Yk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2 id="Contacto">Contacto</h2>
+
+        <table>
+            
+            <tr>
+                <th> Areas de la tienda </th>
+                <th> Responsable </th>
+                <th> Telefono </th>
+            </tr>
+
+            <tr>
+                <td> Calzado hombre </td>
+                <td> <a href="#Fundador"> David Vargas </a> </td>
+                <td> 300 000 0000 </td>
+            </tr>
+
+            <tr>
+                <td> Calzado mujer </td>
+                <td> Tatiana Castillo </td>
+                <td> 315 5863 0000 </td>
+            </tr>
+
+            <tr>
+                <td></td>
+            </tr>
+        </table>
+
+        <h2> Fundador </h2>
+
+        <img src="imagenes/playa.jpg" alt="propietario nombre 1" height="360" width="350" id="Fundador">
+
+        <h3 id="Formulario"> Formulario </h3>
+
+        <form>
+            <label for="Nombre completo"> Nombre completo </label>
+            <input type="text" id="nombreC" name="nombreC" placeholder="Ingrese su nombre y apellido" required> <br><br>
+        </form>
+
+    </main>
 </body>
 </html>
